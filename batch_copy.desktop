@@ -1,0 +1,29 @@
+[Desktop Entry]
+Type=Service
+Version=1.0
+MimeType=all/all;
+Description=Add files to a queue and then copy them to and especific location in batch mode 
+Actions=AddToBatch;StartBatch;ListBatch;CleanBatch;
+X-KDE-ServiceTypes=KonqPopupMenu/Plugin
+X-KDE-Submenu=Batch Copy
+
+[Desktop Action AddToBatch]
+Name=Add to Batch Queue
+Icon=list-add
+Exec=/usr/share/batch_copy/batch_add.sh %U
+
+[Desktop Action StartBatch]
+Name=Start Batch Copy
+Icon=kt-start
+Exec=/usr/share/batch_copy/batch_copy.sh %k
+
+[Desktop Action ListBatch]
+Name=List Batch Queue
+Icon=format-list-unordered
+Exec=/usr/share/batch_copy/batch_list.sh
+
+[Desktop Action CleanBatch]
+Name=Clean Batch Queue
+Icon=edit-clear
+Exec=/usr/share/batch_copy/batch_clean.sh
+ShowIfTrue=[ -f /tmp/batch_copy.tmp ] && echo "true"

@@ -10,20 +10,19 @@ X-KDE-Submenu=Batch Copy
 [Desktop Action AddToBatch]
 Name=Add to Batch Queue
 Icon=list-add
-Exec=/usr/share/batch_copy/batch_add.sh %U
+Exec=/usr/share/kde4/services/batch_copy/batch_add.sh %U
 
 [Desktop Action StartBatch]
 Name=Start Batch Copy
 Icon=kt-start
-Exec=/usr/share/batch_copy/batch_copy.sh %k
+Exec=/usr/share/kde4/services/batch_copy/batch_copy.sh %k
 
 [Desktop Action ListBatch]
 Name=List Batch Queue
 Icon=format-list-unordered
-Exec=/usr/share/batch_copy/batch_list.sh
+Exec=/usr/share/kde4/services/batch_copy/batch_list.sh
 
 [Desktop Action CleanBatch]
 Name=Clean Batch Queue
 Icon=edit-clear
 Exec=/usr/share/batch_copy/batch_clean.sh
-ShowIfTrue=[ -f /tmp/batch_copy.tmp ] && echo "true"

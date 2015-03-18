@@ -6,5 +6,5 @@ if [[ -f /tmp/batch_copy.tmp ]]; then
 
 	kdialog --textbox /tmp/batch_copy.tmp 550 300  
 else
-	kdialog --sorry "No files on batch queue"
+	kdialog --title "No files" --sorry "No files on batch queue"
 fi

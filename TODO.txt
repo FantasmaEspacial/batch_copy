@@ -1,3 +1,4 @@
 #TODO#
 -manejar los espacios en blanco
 -¿eliminar elementos a gusto?
+-validar que el validar si existe el archivo no sea basura

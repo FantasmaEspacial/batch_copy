@@ -15,7 +15,7 @@ In addition you can list the content in the queue or clean it.
 - "Clean Batch Queue": Clean all the content of the queue (no confirmation be aware)
 
 ## Installation
-I arbitrarily decided to use the the next directories:
+I "arbitrarily" decided to use the the next directories:
 /usr/share/kde4/services/ServiceMenus/ for the .desktop
 /usr/share/kde4/services/batch_copy/ for .sh scripts
 
@@ -28,7 +28,12 @@ sudo ./INSTALL.sh
 ## Dependencies
 - Bash: 4.XX
 - KDE: 4.X
+- kdialog
+- kde-cp
 
 ## ToDo
-- Discriminated deletion.
-- Remote copy (scp, ftp)
+- Selective deletion.
+- Remote copy (scp, ftp).
+
+## Author
+Julian Cañada <julian.inc@gmail.com>

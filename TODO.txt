@@ -1,3 +1,0 @@
-#TODO#
--¿eliminar elementos a gusto?
--validar que el validar si existe el archivo no sea basura

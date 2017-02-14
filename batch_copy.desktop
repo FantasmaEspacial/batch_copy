@@ -25,4 +25,4 @@ Exec=/usr/share/kde4/services/batch_copy/batch_list.sh
 [Desktop Action CleanBatch]
 Name=Clean Batch Queue
 Icon=edit-clear
-Exec=/usr/share/batch_copy/batch_clean.sh
+Exec=/usr/share/kde4/services/batch_copy/batch_clean.sh

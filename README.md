@@ -10,7 +10,7 @@ In addition you can list the content in the queue or clean it.
 
 ### Menu Entrys
 Each action it's a different bash script.
-- "Add to Batch Queue": Add a file or directory to the queue.
+- "Add to Batch Queue": Add files or directories to the queue.
 - "Start Batch Copy": Propmt for destination directory (yes, only one for all) and begins copying.
 - "List Batch Queue": Show a textbox with the list of added files.
 - "Clean Batch Queue": Clean all the content of the queue (no confirmation be aware)
